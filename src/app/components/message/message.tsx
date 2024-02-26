@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 import React from "react";
 
 export default function Message() {
@@ -42,13 +43,15 @@ export default function Message() {
           <Input type="number" placeholder="Your Number" />
           <Input type="option" placeholder="Choose a Option" />
         </div>
-        <textarea
+
+        <Textarea
           className="border w-full rounded-2xl p-4"
           id="myTextarea"
           placeholder="Write Message"
           cols={30}
           rows={5}
         />
+
         <Button className="w-3/12 h-12 rounded-full bg-[#2928E8]" type="submit">
           Submit Now
         </Button>
