@@ -7,6 +7,7 @@ import Gallery from "./components/gallery/gallery";
 import Testimonial from "./components/testimonial/testimonial";
 import About2 from "./components/about2/about2";
 import Message from "./components/message/message";
+import Blog from "./components/blog/blog";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Testimonial />
       <About2 />
       <Message />
+      <Blog />
     </div>
   );
 }
