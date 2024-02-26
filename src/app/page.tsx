@@ -5,6 +5,7 @@ import Brandslide from "./components/brandslide/brandslide";
 import About from "./components/about/about";
 import Gallery from "./components/gallery/gallery";
 import Testimonial from "./components/testimonial/testimonial";
+import About2 from "./components/about2/about2";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Gallery />
       <Testimonial />
+      <About2 />
     </div>
   );
 }
