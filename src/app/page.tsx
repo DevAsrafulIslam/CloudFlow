@@ -6,6 +6,7 @@ import About from "./components/about/about";
 import Gallery from "./components/gallery/gallery";
 import Testimonial from "./components/testimonial/testimonial";
 import About2 from "./components/about2/about2";
+import Message from "./components/message/message";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Gallery />
       <Testimonial />
       <About2 />
+      <Message />
     </div>
   );
 }
