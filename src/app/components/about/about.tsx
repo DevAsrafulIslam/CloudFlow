@@ -3,7 +3,7 @@ import about from "../../../../public/images/Group 1000008331.jpg";
 import Image from "next/image";
 export default function About() {
   return (
-    <div className="flex items-center gap-[153px] container mx-auto">
+    <div className="flex items-center gap-[153px] mt-[107px] container mx-auto">
       <Image src={about} alt="Picture of the author" />
       <div>
         <h1 className="text-[43px] mb-6 font-bold leading-[55.9px]">

@@ -41,8 +41,10 @@ export const Header = () => {
           CloudFlow
         </a>
       </div>
-      <NavMenu />
-      <Help />
+      <div className="xl:flex gap-10 hidden">
+        <NavMenu />
+        <Help />
+      </div>
     </header>
   );
 };

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import information from "../../../../public/images/gallery/6990c1c49df34cee316be0a2c467213c.jpeg";
-import activity from "../../../../public/images/gallery/6990c1c49df34cee316be0a2c467213c.jpeg";
-import name from "../../../../public/images/gallery/6990c1c49df34cee316be0a2c467213c.jpeg";
-import social from "../../../../public/images/gallery/6990c1c49df34cee316be0a2c467213c.jpeg";
-import chart from "../../../../public/images/gallery/be3df3d2beafc0371085421e1503f46d.jpeg";
+import datainfo from "../../../../public/images/gallery/data info.png";
+import dataactivity from "../../../../public/images/gallery/data activity.png";
+import cardname from "../../../../public/images/gallery/card name.png";
+import chart from "../../../../public/images/gallery/chart info.png";
+import dataactivity2 from "../../../../public/images/gallery/data-activity.png";
 
 export default function Gallery() {
   return (
@@ -14,43 +14,69 @@ export default function Gallery() {
       </h1>
       <div className="mt-[60px] gap-8 grid">
         <div className="grid grid-cols-3 gap-8">
-          <div className="bg-[#B195EE] bg-opacity-10 rounded-xl p-[20px]">
-            <Image src={information} alt="Picture of the author" />
-            <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
-              Content and Copywriting
-            </h3>
-            <p>non similique voluptatem</p>
+          <div className="bg-[#B195EE] bg-opacity-10 rounded-2xl  pt-7 px-10">
+            <Image
+              className="px-24"
+              src={datainfo}
+              alt="Picture of the author"
+            />
+            <div className="pl-10 pb-10">
+              <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
+                Content and Copywriting
+              </h3>
+              <p>non similique voluptatem</p>
+            </div>
           </div>
-          <div className="bg-[#95D5EE] bg-opacity-10 rounded-xl p-[20px]">
-            <Image src={activity} alt="Picture of the author" />
-            <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
-              Content and Copywriting
-            </h3>
-            <p>non similique voluptatem</p>
+          <div className="bg-[#95D5EE] bg-opacity-10 rounded-2xl pt-7 px-10">
+            <Image
+              className="px-24"
+              src={dataactivity2}
+              alt="Picture of the author"
+            />
+            <div className="pl-10 pb-10">
+              <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
+                Content and Copywriting{" "}
+              </h3>
+              <p>consequatur excepturi magnam</p>
+            </div>
           </div>
-          <div className="bg-[#F9E58F] bg-opacity-10 rounded-xl p-[20px]">
-            <Image src={name} alt="Picture of the author" />
-            <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
-              Content and Copywriting
-            </h3>
-            <p>non similique voluptatem</p>
+          <div className="bg-[#F9E58F] bg-opacity-10 rounded-2xl pt-7 px-10">
+            <Image
+              className="px-24"
+              src={cardname}
+              alt="Picture of the author"
+            />
+            <div className="pl-10 pb-10">
+              <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
+                Social Media Strategy
+              </h3>
+              <p>voluptatem numquam qui</p>
+            </div>
           </div>
         </div>
         <div className="grid grid-cols-3 gap-8">
-          <div className="bg-[#97EE95] bg-opacity-10 rounded-xl p-[20px]">
-            <Image src={social} alt="Picture of the author" />
-            <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
-              Content and Copywriting
-            </h3>
-            <p>non similique voluptatem</p>
+          <div className="bg-[#97EE95] bg-opacity-10 rounded-2xl pt-7 px-10">
+            <Image className="px-24" src={chart} alt="Picture of the author" />
+            <div className="pl-10 pb-10">
+              <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
+                Social Media Strategy
+              </h3>
+              <p>odit quidem corporis</p>
+            </div>
           </div>
 
-          <div className="col-span-2 bg-[#F9A78F] bg-opacity-10 rounded-xl p-[20px]">
-            <Image src={chart} alt="Picture of the author" />
-            <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
-              Content and Copywriting
-            </h3>
-            <p>non similique voluptatem</p>
+          <div className="col-span-2 bg-[#F9A78F] bg-opacity-10 rounded-2xl pt-7 px-10">
+            <Image
+              className="px-24"
+              src={dataactivity}
+              alt="Picture of the author"
+            />
+            <div className="pl-10 pb-10">
+              <h3 className="text-2xl mt-[18px] font-bold leading-[39px]">
+                Brand Identity and Logo Design
+              </h3>
+              <p>non ipsam voluptas</p>
+            </div>
           </div>
         </div>
       </div>

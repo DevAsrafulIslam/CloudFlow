@@ -1,11 +1,11 @@
 import React from "react";
 
-import testimonial from "../../../../public/images/testimonial/Group 1000008332.jpg";
+import testimonial from "../../../../public/images/testimonial/Frame 1000008298.png";
 import Image from "next/image";
 
 export default function Testimonial() {
   return (
-    <div className="bg-[#FAF7F0]">
+    <div className="bg-[#FAF7F0] mt-[120px]">
       <div className="container flex pt-[120px] pb-[248px] justify-between items-center gap-24">
         <div className="w-6/12">
           <p className="text-2xl leading-[42px] text-[#514A74]">

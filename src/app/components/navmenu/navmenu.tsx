@@ -18,7 +18,7 @@ export function NavMenu() {
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>
-            <Link href="/home">Home</Link>
+            <Link href="/">Home</Link>
           </NavigationMenuTrigger>
         </NavigationMenuItem>
         <NavigationMenuItem>
