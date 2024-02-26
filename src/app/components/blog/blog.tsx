@@ -44,9 +44,16 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className="card gap-8 flex mb-4">
-        <div className="shadow-xl hover:shadow-none hover:border-b-4 border-[#95D5EE] overflow-hidden  rounded-3xl">
-          <Image src={blogImg2} alt="Picture of the author" />
+      <div className="gap-8 flex mb-4">
+        <div className="shadow-xl hover:shadow-none border-b-4 border-transparent  hover:border-[#95D5EE] overflow-hidden  rounded-3xl">
+          <div className="w-full relative aspect-video">
+            <Image
+              fill
+              className="absolute object-cover"
+              src={blogImg1}
+              alt="Picture of the author"
+            />
+          </div>
           <div className="card-content px-10 flex  gap-1 justify-between">
             <div className="flex items-center">
               <svg
@@ -88,8 +95,15 @@ export default function Blog() {
             </div>
           </div>
         </div>
-        <div className="shadow-xl hover:shadow-none hover:border-b-4 border-[#95D5EE] overflow-hidden  rounded-3xl">
-          <Image src={blogImg3} alt="Picture of the author" />
+        <div className="shadow-xl hover:shadow-none border-b-4 border-transparent  hover:border-[#95D5EE] overflow-hidden  rounded-3xl">
+          <div className="w-full relative aspect-video">
+            <Image
+              fill
+              className="absolute object-cover"
+              src={blogImg2}
+              alt="Picture of the author"
+            />
+          </div>
           <div className="card-content px-10 flex  gap-1 justify-between">
             <div className="flex items-center">
               <svg
@@ -131,8 +145,15 @@ export default function Blog() {
             </div>
           </div>
         </div>
-        <div className="shadow-xl hover:shadow-none hover:border-b-4 border-[#95D5EE] overflow-hidden  rounded-3xl">
-          <Image src={blogImg2} alt="Picture of the author" />
+        <div className="shadow-xl hover:shadow-none border-b-4 border-transparent  hover:border-[#95D5EE] overflow-hidden  rounded-3xl">
+          <div className="w-full relative aspect-video">
+            <Image
+              fill
+              className="absolute object-cover"
+              src={blogImg3}
+              alt="Picture of the author"
+            />
+          </div>
           <div className="card-content px-10 flex  gap-1 justify-between">
             <div className="flex items-center">
               <svg

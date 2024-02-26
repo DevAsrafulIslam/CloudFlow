@@ -9,6 +9,7 @@ import About2 from "./components/about2/about2";
 import Message from "./components/message/message";
 import Blog from "./components/blog/blog";
 import Cta from "./components/cta/cta";
+import Footer from "./components/footer/footer";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Message />
       <Blog />
       <Cta />
+      <Footer />
     </div>
   );
 }
