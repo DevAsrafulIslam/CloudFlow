@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Features() {
   return (
-    <div className="container flex gap-[165px] mt-[120px]">
+    <div className="container grid  gap-[165px] mt-[120px]">
       <div>
         <svg
           width="500"

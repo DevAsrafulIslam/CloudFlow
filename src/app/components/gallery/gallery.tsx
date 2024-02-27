@@ -12,8 +12,8 @@ export default function Gallery() {
       <h1 className="w-[630px] text-center mx-auto text-[43px] mb-6 font-bold leading-[55.9px]">
         Where Imagination Meets the agency Innovation
       </h1>
-      <div className="mt-[60px] gap-8 grid">
-        <div className="grid grid-cols-3 gap-8">
+      <div className="grid  mt-[60px] gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-[#B195EE] bg-opacity-10 rounded-2xl  pt-7 px-10">
             <Image
               className="px-24"
@@ -54,7 +54,7 @@ export default function Gallery() {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-[#97EE95] bg-opacity-10 rounded-2xl pt-7 px-10">
             <Image className="px-24" src={chart} alt="Picture of the author" />
             <div className="pl-10 pb-10">

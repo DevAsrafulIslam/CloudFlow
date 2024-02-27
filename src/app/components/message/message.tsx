@@ -5,9 +5,9 @@ import React from "react";
 
 export default function Message() {
   return (
-    <div className="container flex gap-[116px] mt-[120px]">
-      <div className="w-4/12">
-        <h1 className="text-[43px] mb-5 font-bold leading-[55.9px] text-[#140B43]">
+    <div className="container grid md:grid-cols-1 gap-[116px] mt-[120px]">
+      <div className="w-full text-center md:text-start md:w-4/12">
+        <h1 className="text-2xl md:text-[43px] mb-5 font-bold leading-[55.9px] text-[#140B43]">
           Contact For Urgent Service
         </h1>
         <p className="text-[#514A74] mb-14">
@@ -15,7 +15,7 @@ export default function Message() {
           design creative and strategic
         </p>
         <div className="flex items-center  gap-5">
-          <div className=" bg-[#F5F5F7] p-4 w-[50px] h-[50px] rounded-full">
+          <div className=" bg-[#F5F5F7]  p-4 w-[50px] h-[50px] rounded-full">
             <svg
               width="21"
               height="21"
@@ -29,13 +29,13 @@ export default function Message() {
               />
             </svg>
           </div>
-          <h4 className="text-[21px] leading-[31.5px] font-bold text-[#140B43]">
+          <h4 className="text-[21px]  leading-[31.5px] font-bold text-[#140B43]">
             +(201) 555-0124
           </h4>
         </div>
       </div>
-      <div className="grid gap-5 w-10/12">
-        <div className="grid grid-cols-3 gap-5">
+      <div className="grid md:grid-cols gap-5 mx-auto w-full md:w-10/12">
+        <div className="grid md:grid-cols-3 gap-5">
           <Input type="text" placeholder="Your Name" />
           <Input type="email" placeholder="E-mail" />
           <Input type="date" placeholder="Date" />

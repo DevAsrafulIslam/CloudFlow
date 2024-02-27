@@ -9,10 +9,10 @@ export default function Blog() {
   return (
     <div className="container mt-[120px]">
       <div className=" flex justify-between">
-        <h1 className="text-[43px] mb-[60px] font-bold w-6/12 leading-[55.9px] text-[#140B43]">
+        <h1 className="text-2xl md:text-[43px] mb-[60px] font-bold w-full text-center md:text-start md:w-6/12 leading-[55.9px] text-[#140B43]">
           Crafting Brands That Stand Out from the Crowd
         </h1>
-        <div className="flex gap-4">
+        <div className="md:flex hidden sm:hidden gap-4">
           <button className="bg-[#2928E8] bg-opacity-40 w-[60px] h-[60px] rounded-full p-5 items-center">
             <svg
               width="15"
@@ -44,7 +44,7 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className="gap-8 flex mb-4">
+      <div className="sm:grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-4">
         <div className="shadow-xl hover:shadow-none border-b-4 border-transparent  hover:border-[#95D5EE] overflow-hidden  rounded-3xl">
           <div className="w-full relative aspect-video">
             <Image
@@ -67,7 +67,7 @@ export default function Blog() {
                   d="M6.375 7.625C8.64844 7.625 10.5 9.47656 10.5 11.75C10.5 12.1719 10.1484 12.5 9.75 12.5H0.75C0.328125 12.5 0 12.1719 0 11.75C0 9.47656 1.82812 7.625 4.125 7.625H6.375ZM1.125 11.375H9.35156C9.16406 9.89844 7.89844 8.75 6.375 8.75H4.125C2.57812 8.75 1.3125 9.89844 1.125 11.375ZM5.25 6.5C3.58594 6.5 2.25 5.16406 2.25 3.5C2.25 1.85938 3.58594 0.5 5.25 0.5C6.89062 0.5 8.25 1.85938 8.25 3.5C8.25 5.16406 6.89062 6.5 5.25 6.5ZM5.25 1.625C4.19531 1.625 3.375 2.46875 3.375 3.5C3.375 4.55469 4.19531 5.375 5.25 5.375C6.28125 5.375 7.125 4.55469 7.125 3.5C7.125 2.46875 6.28125 1.625 5.25 1.625Z"
                   fill="#514A74"
                 />
-              </svg>{" "}
+              </svg>
               <p>By admin</p>
             </div>
             <div className="flex py-5 items-center">
@@ -87,7 +87,7 @@ export default function Blog() {
             </div>
           </div>
           <div className="card-header px-10">
-            <h3 className="text-[26px] font-bold leading-[39px] text-[#140B43]">
+            <h3 className="text-2xl text-center md:text-start md:text-[26px] font-bold leading-[39px] text-[#140B43]">
               Creativity Unleashed the a Success Attained
             </h3>
             <div className="card-footer mb-10 pt-8 text-[22px] font-bold text-[#140B43]">
@@ -137,7 +137,7 @@ export default function Blog() {
             </div>
           </div>
           <div className="card-header px-10">
-            <h3 className="text-[26px] font-bold leading-[39px] text-[#140B43]">
+            <h3 className="text-2xl text-center md:text-start md:text-[26px] font-bold leading-[39px] text-[#140B43]">
               Creativity Unleashed the a Success Attained
             </h3>
             <div className="card-footer mb-10 pt-8 text-[22px] font-bold text-[#140B43]">
@@ -187,7 +187,7 @@ export default function Blog() {
             </div>
           </div>
           <div className="card-header px-10">
-            <h3 className="text-[26px] font-bold leading-[39px] text-[#140B43]">
+            <h3 className="text-2xl text-center md:text-start md:text-[26px] font-bold leading-[39px] text-[#140B43]">
               Creativity Unleashed the a Success Attained
             </h3>
             <div className="card-footer mb-10 pt-8 text-[22px] font-bold text-[#140B43]">
