@@ -12,7 +12,7 @@ export default function Testimonial() {
           <p className=" w-11 h-11">
             <FaQuoteRight className="text-5xl text-white bg-[#2928E8] p-2 rounded-full" />
           </p>
-          <p className="text-2xl leading-[42px] text-[#514A74]">
+          <p className="text-xl leading-[42px] text-[#514A74]">
             Creative agency encompasses wide range of services related i the
             creative and st marketing These agencies specialize in offering
             innovative solutions to clients branding loren ipsum

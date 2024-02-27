@@ -23,7 +23,7 @@ export function DropdownMenubar() {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button
-          className="container w-20 mx-0 md:hidden grid"
+          className="container w-20 mx-0 xl:hidden grid"
           variant="outline"
         >
           <FaBarsStaggered />

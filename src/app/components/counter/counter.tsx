@@ -3,7 +3,7 @@ import React from "react";
 export default function Counter() {
   return (
     <div className="container">
-      <div className="flex-wrap flex justify-between -mt-32  bg-[#95D5EE]  px-24 py-20  w-full mx-auto rounded-xl">
+      <div className="flex-wrap flex justify-between -mt-32  bg-[#95D5EE] px-2 gap-4 md:px-24 py-20  w-full mx-auto rounded-xl">
         <div className="flex items-center gap-3">
           <div className="bg-[#FAF7F0] p-4 opacity-50 rounded-[20px]">
             <svg

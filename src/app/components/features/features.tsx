@@ -2,9 +2,10 @@ import React from "react";
 
 export default function Features() {
   return (
-    <div className="container grid  gap-[165px] mt-[120px]">
+    <div className="container grid md:grid-cols-2 md:gap-[165px] mt-[120px]">
       <div>
         <svg
+          className="w-full"
           width="500"
           height="500"
           viewBox="0 0 500 500"
@@ -1098,7 +1099,7 @@ export default function Features() {
       </div>
       <div>
         <div>
-          <h1 className="text-[43px] font-bold leading-[55.9px] text-[#140B43]">
+          <h1 className="text-2xl lg:text-3xl lg:text-start text-center md:text-center  md:text-[43px] font-bold leading-[55.9px] text-[#140B43]">
             We develop product that the people love to use
           </h1>
           <p className="text-[#514A74]">
@@ -1131,7 +1132,7 @@ export default function Features() {
             </svg>
           </div>
           <div>
-            <h3 className="text-[26px] text-[#140B43] font-bold leading-[39px]">
+            <h3 className="text-2xl md:text-[26px] text-[#140B43] font-bold leading-[39px]">
               Content Wizards
             </h3>
             <p className="text-[#514A74]">
@@ -1195,7 +1196,7 @@ export default function Features() {
             </svg>
           </div>
           <div>
-            <h3 className="text-[26px] text-[#140B43] font-bold leading-[39px]">
+            <h3 className="text-2xl md:text-[26px] text-[#140B43] font-bold leading-[39px]">
               Idea Makers
             </h3>
             <p className="text-[#514A74]">

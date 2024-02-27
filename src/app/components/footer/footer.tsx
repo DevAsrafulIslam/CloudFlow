@@ -71,10 +71,20 @@ export default function Footer() {
           <div className="space-y-3 md:space-y-6 text-center md:text-start col-span-6 md:col-span-3 xl:col-span-2">
             <h3 className="text-[26px] font-bold leading-[39px]">Contact</h3>
             <div className="grid flex-col gap-3 ">
-              <p>Old city Street,Usa</p>
-              <p>1223 california-3500</p>
-              <p>(+888) 123 456 765</p>
-              <p>(+888) 123 987 765</p>
+              <div className="flex items-center gap-2">
+                <FaTelegramPlane className="text-6xl w-10 h-10 border rounded-md p-2 bg-[#F5F5F7]" />
+                <div>
+                  <p>Old city Street,Usa</p>
+                  <p>1223 california-3500</p>
+                </div>
+              </div>
+              <div className="flex items-center gap-2">
+                <IoCall className="text-6xl w-10 h-10 border rounded-md p-2 bg-[#F5F5F7]" />
+                <div>
+                  <p>(+888) 123 456 765</p>
+                  <p>(+888) 123 987 765</p>
+                </div>
+              </div>
             </div>
           </div>
 

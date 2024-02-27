@@ -20,13 +20,16 @@ export default function Cta() {
           <h1 className="text-3xl text-center md:text-start  md:text-[43px] font-bold leading-[55.9px] text-[#140B43]">
             Your Vision, Our Passion Outstanding Results
           </h1>
-          <div className="flex  w-8/12  items-center space-x-2">
+          <div className="grid gap-4 md:grid-cols-2 items-center space-x-2">
             <Input
-              className="rounded-full py-6"
+              className="rounded-full py-7 pl-8 mx-w-[406px] w-full"
               type="email"
               placeholder="Enter Your Email"
             />
-            <Button className="bg-[#2928E8] rounded-full" type="submit">
+            <Button
+              className="bg-[#2928E8] py-7 w-44 rounded-full"
+              type="submit"
+            >
               Subscribe
             </Button>
           </div>
