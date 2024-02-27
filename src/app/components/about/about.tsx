@@ -7,7 +7,7 @@ export default function About() {
       <Image src={about} alt="Picture of the author" />
       <div>
         <h1 className="text-[43px] mb-6 font-bold leading-[55.9px]">
-          Unleash Your Brand's Creative Potential the agency
+          Unleash Your Brands Creative Potential the agency
         </h1>
         <p>
           Nulla vitae ex nunc. Morbi quis purus convallis, fermentum metus
