@@ -1,17 +1,13 @@
 "use client";
-// import Image from "next/image";
-import Link from "next/link";
+
 import React from "react";
-
-import { Sun, Moon } from "lucide-react";
-
 import { DropdownMenubar } from "../../dropdownmenu/dropdownmenu";
 import { NavMenu } from "../../navmenu/navmenu";
 import Help from "../../help/help";
 
 export const Header = () => {
   return (
-    <header className="flex justify-between mt-2   navbar container bg-base-100">
+    <header className="flex justify-between mt-2 navbar container bg-base-100">
       <DropdownMenubar />
       <div className="flex gap-[10px] items-center">
         <svg
@@ -41,7 +37,7 @@ export const Header = () => {
           CloudFlow
         </a>
       </div>
-      <div className="xl:flex gap-10 hidden">
+      <div className="xl:flex  gap-10 hidden">
         <NavMenu />
         <Help />
       </div>

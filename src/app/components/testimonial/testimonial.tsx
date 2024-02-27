@@ -8,7 +8,7 @@ export default function Testimonial() {
   return (
     <div className="bg-[#FAF7F0] mt-[120px]">
       <div className="container grid md:grid-cols-2 pt-[120px] pb-[248px] justify-between items-center gap-24">
-        <div className="w-6/12">
+        <div className="">
           <p className=" w-11 h-11">
             <FaQuoteRight className="text-5xl text-white bg-[#2928E8] p-2 rounded-full" />
           </p>
