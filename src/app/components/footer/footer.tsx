@@ -129,7 +129,10 @@ export default function Footer() {
         </div>
       </div>
       {/* copyright */}
-      <div className="container py-5 flex items-center justify-center md:justify-between flex-wrap gap-5">
+      <div className="mt-20">
+        <div className="border-t-2 w-full" />
+      </div>
+      <div className="container mt-[30px] py-5 flex items-center justify-center md:justify-between flex-wrap gap-5">
         <p className="text-sm md:text-start text-center">
           © DesignCurved 2024 | All Rights Reserved
         </p>
@@ -141,15 +144,4 @@ export default function Footer() {
       </div>
     </div>
   );
-}
-{
-  /* <div className="flex text-5xl gap-3">
-              <h3 className="text-[26px] font-bold leading-[39px]">
-                Newsletter
-              </h3>
-              <FaAndroid className="border p-2 rounded-md" />
-              <FaApple className="border p-2 rounded-md" />{" "}
-              <FaWindows className="border p-2 rounded-md" />
-              <FaArrowRight className="text-[#2928E8]" />
-            </div> */
 }
