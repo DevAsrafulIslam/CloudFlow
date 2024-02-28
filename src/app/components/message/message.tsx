@@ -5,8 +5,8 @@ import React from "react";
 
 export default function Message() {
   return (
-    <div className="container grid md:grid-cols-2 gap-[116px] mt-[120px]">
-      <div className="text-center md:text-start">
+    <div className="container flex-wrap flex gap-[116px] mt-[120px]">
+      <div className="max-w-[400px] mx-auto w-full min-w-[300px] text-center md:text-start">
         <h1 className="text-2xl lg:text-[43px] md:text-3xl mb-5 font-bold leading-[55.9px] text-[#140B43]">
           Contact For Urgent Service
         </h1>
@@ -34,7 +34,7 @@ export default function Message() {
           </h4>
         </div>
       </div>
-      <div className="grid gap-5 mx-auto ">
+      <div className="flex-1 w-full md:min-w-[500px] space-y-5 mx-auto ">
         <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-5">
           <Input type="text" placeholder="Your Name" />
           <Input type="email" placeholder="E-mail" />
@@ -43,7 +43,6 @@ export default function Message() {
           <Input type="number" placeholder="Your Number" />
           <Input type="option" placeholder="Choose a Option" />
         </div>
-
         <Textarea
           className="border w-full rounded-2xl p-4"
           id="myTextarea"

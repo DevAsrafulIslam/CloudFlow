@@ -45,7 +45,7 @@ export default function Blog() {
         </div>
       </div>
 
-      <div className="sm:grid gap-4 md:grid-cols-2 lg:grid-cols-3 md:gap-8 mb-4">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 md:gap-8 mb-4">
         <div className="shadow-xl hover:shadow-none border-b-4 border-transparent  hover:border-[#95D5EE] overflow-hidden  rounded-3xl">
           <div className="w-full relative aspect-video">
             <Image

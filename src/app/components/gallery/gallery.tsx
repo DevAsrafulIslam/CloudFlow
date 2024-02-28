@@ -82,7 +82,7 @@ export default function Gallery() {
             </div>
           </div>
 
-          <div className="col-span-3 md:col-span-2 bg-[#F9A78F] bg-opacity-10 rounded-2xl overflow-hidden md:pt-7">
+          <div className="col-span-3 lg:col-span-2 bg-[#F9A78F] bg-opacity-10 rounded-2xl overflow-hidden md:pt-7">
             <Image
               className="md:px-24"
               src={dataactivity}
