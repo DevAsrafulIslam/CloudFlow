@@ -16,7 +16,7 @@ export default function Banner() {
             protection tax the
           </p>
           <button className="text-white mt-[40px] h-[60px] w-[161px] rounded-[10px]  bg-[#2928E8]">
-            GEt Started
+            Get Started
           </button>
         </div>
         <div className="md:w-6/12">
